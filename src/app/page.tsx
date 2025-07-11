@@ -1,8 +1,13 @@
 
 import Card from "./card/page";
+import About from "./about/page"
+
 
 export default function Home() {
   return (
-    <Card/>
+    
+    <About/>
+    
+    
   );
 }
