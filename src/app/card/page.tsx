@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
-import shoe from "@/../public/shoe.png"
+import Image from 'next/image'
+
 
 
 const Card: React.FC = () => {
@@ -13,7 +14,7 @@ const Card: React.FC = () => {
           {/* Image Container - Allows overflow for 3D effect */}
           <div className="relative h-48 sm:h-56 md:h-64 flex items-center justify-center pt-2 pb-8 overflow-visible">
             <div className="relative">
-              <img
+              <Image width={100} height={100}
                 src="/shoe.png"
                 alt="Premium Sneaker"
                 className="w-74 h-54 sm:w-80 sm:h-56 md:w-96 md:h-64 object-contain transform transition-all duration-700 ease-out
