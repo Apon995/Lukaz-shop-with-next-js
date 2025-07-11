@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image'
 
-const Card: React.FC = () => {
+const Cardtwo: React.FC = () => {
   return(
      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-4 sm:p-8 flex items-center justify-center">
       <div className="w-full max-w-xs sm:max-w-sm md:max-w-md">
@@ -103,4 +103,4 @@ const Card: React.FC = () => {
  
 };
 
-export default Card;
+export default Cardtwo;
